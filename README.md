@@ -17,42 +17,38 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 ## Identificação
 
-**Título do projeto de IHC:** {{TÍTULO DO PROJETO}}  
-**TCC/projeto de origem:** {{TÍTULO ORIGINAL DO TCC}}  
-**Orientador(a):** {{NOME}}  
+**Título do projeto de IHC:** Interface WHTMD  
+**TCC/projeto de origem:** Sistema de Versionamento de Bancos de Dados
+Relacionais para Análise de Dados Históricos  
+**Orientador(a):** Leonardo Anjoletto Ferreira  
 **Disciplina:** Interação Humano-Computador  
-**Instituição:** {{INSTITUIÇÃO}}  
-**Semestre:** {{ANO/SEMESTRE}}
+**Instituição:** FEI  
+**Semestre:** 8º
 
 ### Equipe
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|
-| {{Nome 1}} | {{matrícula}} | {{@usuario}} | {{...}} |
-| {{Nome 2}} | {{matrícula}} | {{@usuario}} | {{...}} |
+| Igor Vicente Cutalo | 22.123.062-6 | igorvicente0712 | Autor único |
 
 ## Relação entre TCC e projeto de IHC
 
 | Item | Descrição |
 |---|---|
-| Tema central do TCC | {{...}} |
-| Resultado técnico esperado do TCC | {{algoritmo, estudo, sistema, modelo, análise, API...}} |
-| O TCC já previa interface? | sim / não / parcialmente |
-| Capacidade técnica que pode gerar valor para pessoas | {{...}} |
-| Usuário principal adotado em IHC | {{...}} |
-| Objetivo principal desse usuário | {{...}} |
-| Interface/recorte explorado na disciplina | {{...}} |
-| Relação com o escopo formal do TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra |
+| Tema central do TCC | Sistema de Versionamento de Bancos de Dados |
+| Resultado técnico esperado do TCC | sistema, estudo |
+| O TCC já previa interface? | sim |
+| Capacidade técnica que pode gerar valor para pessoas | facilitação do uso do sistema para a instação, configuração e utilização do sistema |
+| Usuário principal adotado em IHC | donos e usuários de bancos de dados |
+| Objetivo principal desse usuário | ver o histórico completo dos dados |
+| Interface/recorte explorado na disciplina | GUI |
+| Relação com o escopo formal do TCC | parte prevista |
 
 > **Importante:** a tabela acima explica a relação entre os dois trabalhos. Ela não altera o compromisso formal do TCC.
 
 ## Resumo do projeto pela perspectiva do usuário
 
-Escreva **um parágrafo curto e concreto** explicando: quem é o usuário escolhido, o que precisa alcançar, qual problema enfrenta ou qual atividade precisa executar, em qual contexto e como a contribuição do TCC se relaciona com essa situação.
-
-Evite começar pela tecnologia.
-
-> **Estrutura sugerida:** “`{{tipo de usuário}}` precisa `{{objetivo}}` em `{{contexto}}`. Atualmente enfrenta `{{problema/limitação}}` e utiliza `{{processo/alternativa atual}}`. O tema do TCC investiga `{{contribuição técnica}}`. Para fins da disciplina de IHC, será explorada uma interface que permita `{{forma de uso da contribuição}}`.”
+O analista de dados ou profissional responsável pelo banco precisa consultar, compreender e comparar o histórico de informações de bancos de dados relacionais em contextos de análise e auditoria. Atualmente, pode enfrentar dificuldades para identificar quais dados existiam em determinado momento, quais alterações ocorreram e como a estrutura do banco evoluiu, recorrendo a processos manuais, registros dispersos ou ferramentas que exigem conhecimentos técnicos para instalação e configuração. O tema do TCC investiga um sistema de versionamento e linhagem de dados que registra alterações temporais e estruturais, preservando o contexto histórico das informações. Para fins da disciplina de IHC, será explorada uma interface que permita consultar versões, visualizar alterações e compreender a evolução dos dados de forma organizada, além de facilitar a instalação e configuração do sistema para usuários com menor conhecimento técnico que desejem manter um histórico de seus dados.
 
 Se alguma afirmação ainda não estiver sustentada por evidência, registre-a como hipótese na [Entrega 1](docs/01_conhecendo_o_problema.md).
 
